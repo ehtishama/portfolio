@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Nav() {
   return (
     <nav className="">
-      <div className="max-w-screen-lg h-[57px] container mx-auto flex justify-between items-center">
+      <div className="h-[57px] max-w-6xl px-4 mx-auto flex justify-between items-center">
         {/* logo */}
         <Link href={"/"}>
           <h2 className={`font-semibold ${pacifico.className}`}>shaam.dev</h2>

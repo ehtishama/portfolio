@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <>
       <Nav />
-      <main className="max-w-screen-lg container mx-auto py-12 space-y-20">
+      <main className="max-w-6xl px-4 mx-auto py-12 space-y-20">
         <section className="flex">
           <div className="w-1/2 space-y-2">
             <h2 className="font-bold text-[36px]">Morning Meditation</h2>
@@ -40,7 +40,7 @@ export default function Page() {
         {/* hero image */}
         <section className="h-[600px] bg-teal-950/80"></section>
 
-        <section className="grid grid-cols-2 gap-x-16 gap-y-20">
+        <section className="mx-auto grid grid-cols-2 gap-x-16 gap-y-20">
           <div className="">
             <h2 className="text-[24px] font-semibold mb-4">
               Background information

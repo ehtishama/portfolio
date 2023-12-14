@@ -27,7 +27,7 @@ const social_links = [
 export default function Footer() {
   return (
     <footer className="bg-slate-50 mt-32">
-      <section className="max-w-screen-lg container mx-auto py-20 space-y-4">
+      <section className="max-w-6xl mx-auto px-4 py-20 space-y-4">
         <h2 className="font-bold text-4xl capitalize">
           Let&apos;s build someting together
         </h2>
