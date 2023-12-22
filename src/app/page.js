@@ -2,8 +2,11 @@ import Image from "next/image";
 import Nav from "./ui/nav/nav";
 import ProjectCard from "./ui/project_card/card";
 import Footer from "./ui/footer/footer";
+import { getSortedPostsData } from "./lib/posts";
 
 export default function Home() {
+  const sortedPosts = getSortedPostsData();
+
   return (
     <>
       <Nav />
@@ -55,6 +58,16 @@ export default function Home() {
                 "I completed the dissertation as part of my MSc Artificial Intelligence Degree. The focus of the dissertation was to build a motion sensing camera device to detect and classify wildlife."
               }
             />
+
+            {sortedPosts.map((post) => (
+              <ProjectCard
+                key={post.id}
+                id={post.id}
+                title={post.title}
+                description={post.short_desc}
+                image={post.thumbnail_image}
+              />
+            ))}
           </div>
         </section>
       </main>
