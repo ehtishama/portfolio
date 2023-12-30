@@ -26,7 +26,7 @@ const social_links = [
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-50 mt-32">
+    <footer className="bg-slate-50 mt-32" id="footer">
       <section className="max-w-6xl mx-auto px-4 py-20 space-y-4">
         <h2 className="font-bold text-4xl capitalize">
           Let&apos;s build someting together
@@ -35,7 +35,9 @@ export default function Footer() {
           Feel free to reach out if you’re looking for a developer, have a
           question or just want to say hi 👋.
         </p>
-        <p className="underline ">ehtisham9hassan@gmail.com</p>
+        <p className="underline underline-offset-8 pb-4">
+          ehtisham9hassan@gmail.com
+        </p>
 
         <div className="flex space-x-4 mt-2">
           {social_links.map((link) => (

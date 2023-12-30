@@ -3,22 +3,27 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-    <nav className="">
-      <div className="h-[57px] max-w-6xl px-4 mx-auto flex justify-between items-center">
+    <nav className="border-b sticky top-0 bg-white/70 backdrop-blur-md z-50">
+      <div className="h-[70px] max-w-6xl px-4 mx-auto flex justify-between items-center">
         {/* logo */}
         <Link href={"/"}>
           <h2 className={`font-semibold ${pacifico.className}`}>shaam.dev</h2>
         </Link>
 
-        <ul className="flex space-x-4">
+        <ul className="flex items-center space-x-8 font-medium text-gray-700">
           <li>
-            <Link href={""}>Projects</Link>
+            <Link href={"#hero"}>About</Link>
           </li>
           <li>
-            <Link href={""}>About</Link>
+            <Link href={"#projects"}>Projects</Link>
           </li>
           <li>
-            <Link href={""}>Contact</Link>
+            <Link
+              href={"/#footer"}
+              className="btn bg-black rounded px-6 py-3 text-white hover:shadow-lg transition-all"
+            >
+              Contact
+            </Link>
           </li>
         </ul>
       </div>

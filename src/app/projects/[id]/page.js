@@ -15,9 +15,10 @@ export default async function Page({ params }) {
       <Nav />
       <main className="max-w-6xl px-4 mx-auto py-12 space-y-20">
         <section className="flex">
-          <div className="w-1/2 space-y-2">
+          <div className="w-1/2">
             <h2 className="font-bold text-[36px]">{project.title}</h2>
-            <p>{project.long_desc}</p>
+            <p className="text-gray-500 mt-4 text-lg font-mono">Posted on February 19, 2023</p>
+            <p className="text-lg font-sans">{project.long_desc}</p>
           </div>
           <div className="self-center w-1/2 flex space-x-12 justify-center">
             <div>
@@ -57,9 +58,7 @@ export default async function Page({ params }) {
 
         <div
           dangerouslySetInnerHTML={{ __html: project.contentHtml }}
-          className="mx-auto prose dark:prose-invert
-                    prose-h1:font-bold prose-h1:text-xl
-                    prose-a:text-blue-600 prose-p:text-justify prose-img:rounded-xl
+          className="prose-lg max-w-4xl mx-auto prose-img:mx-auto prose-img:block
                     "
         ></div>
         <section className="mx-auto grid grid-cols-2 gap-x-16 gap-y-20">
