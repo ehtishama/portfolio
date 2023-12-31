@@ -22,7 +22,7 @@ export default function Nav() {
               href={"/#footer"}
               className="btn bg-black rounded px-6 py-3 text-white hover:shadow-lg transition-all"
             >
-              Contact
+              Get in Touch
             </Link>
           </li>
         </ul>

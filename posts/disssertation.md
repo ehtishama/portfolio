@@ -9,7 +9,13 @@ built_using:
   - OpenCV
   - PyTorch
 
-demo_links: [{ text: "View Source", src: "" }]
+demo_links:
+  [
+    {
+      text: "View Source",
+      src: "https://github.com/ehtishama/motion-detection-python",
+    },
+  ]
 
 featured_image: /dissertation-hero-light.png
 
