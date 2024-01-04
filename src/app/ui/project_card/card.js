@@ -4,7 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 export default function ProjectCard({ id, title, description, image }) {
   return (
-    <div className="w-1/2 pr-4">
+    <div className="">
       <div className="h-96 bg-slate-50 relative flex justify-center items-center rounded-lg">
         <Image
           src={image}
@@ -17,7 +17,11 @@ export default function ProjectCard({ id, title, description, image }) {
       <div className="p-2">
         <h4 className="font-semibold text-2xl my-4 leading-6">{title}</h4>
         <p className="text-gray-700">{description}</p>
-        <Link href={`/projects/${id}`} className="block my-3 text-black font-medium" scroll={true}>
+        <Link
+          href={`/projects/${id}`}
+          className="block my-3 text-black font-medium"
+          scroll={true}
+        >
           <span className="underline underline-offset-4 flex items-center gap-x-1 group">
             See more{" "}
             <BsArrowRight

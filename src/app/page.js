@@ -110,7 +110,7 @@ export default function Home() {
           </h3>
 
           {/* list of project cards */}
-          <div className="flex flex-wrap">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {sortedPosts.map((post) => (
               <ProjectCard
                 key={post.id}
