@@ -25,7 +25,7 @@ export default function Home() {
               alt="model image"
               width={500}
               height={520}
-              className="rounded-bl-[120px] rounded-br-[80px] rounded-tr-[190px] rounded-tl-[110px] shadow-md"
+              className="rounded-bl-[120px] rounded-br-[80px] rounded-tr-[190px] rounded-tl-[110px] shadow-md hue-rotate-60"
             />
             <svg
               width="36"

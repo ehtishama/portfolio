@@ -17,7 +17,7 @@ export default async function Page({ params }) {
         <section className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="">
             <h2 className="font-bold text-[36px]">{project.title}</h2>
-            <p className="text-gray-500 mt-4 text-lg font-mono">
+            <p className="text-gray-500 my-4 text-lg">
               Posted on February 19, 2023
             </p>
             <p className="text-lg font-sans">{project.long_desc}</p>

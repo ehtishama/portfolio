@@ -5,13 +5,13 @@ import { BsArrowRight } from "react-icons/bs";
 export default function ProjectCard({ id, title, description, image }) {
   return (
     <div className="">
-      <div className="h-96 bg-slate-50 relative flex justify-center items-center rounded-lg">
+      <div className="h-96 bg-slate-50 p-8 relative flex justify-center items-center rounded-lg overflow-hidden shadow-inner border">
         <Image
           src={image}
           height={300}
           width={450}
-          alt="dissertation thumnail image"
-          className="left-4 top-4 transform shadow-lg rounded-lg object-cover"
+          alt="project thumnail image"
+          className="left-4 top-4 transform shadow-lg rounded-lg object-cover max-h-full "
         />
       </div>
       <div className="p-2">

@@ -25,9 +25,10 @@ featured_image: /projects/tictactoe.png
 
 thumbnail_image: /projects/tictactoe.png
 
-short_desc: I completed this dissertation as part of my MSc Artificial Intelligence Degree. The dissertation focuses on building a motion-sensing camera device using Raspberry Pi that detects and classifies wildlife.
+short_desc: A fun little project I did while completeing the Harvards online course on Introduction to Artificial Intelligence. It implements a game playing agent using the minmax algorithm that always looks for a state that has the minimum of the maximum possible losses at the subsequent states.
 
-long_desc: "I completed this dissertation as part of my MSc Artificial Intelligence Degree. The dissertation focuses on building a motion-sensing camera device using Raspberry Pi that detects and classifies wildlife. I used OpenCV's frame difference method to detect motion in a set of frames coming from a live camera stream. The detected motion is then classified into one of the 20 animal classes using a CNN (Convolutional Neural Network) based classification model."
+long_desc: A fun little project I did while completeing the Harvards online course on Introduction to Artificial Intelligence. It implements a game playing agent using the minmax algorithm that always looks for a state that has the minimum of the maximum possible losses at the subsequent states.
+
 ---
 
 ## Background Information

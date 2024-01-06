@@ -28,7 +28,7 @@ export default function Nav() {
           <li>
             <Link
               href={"/#footer"}
-              className="btn bg-black rounded px-6 py-3 text-white hover:shadow-lg transition-all"
+              className="btn bg-black rounded px-6 py-3 text-white hover:shadow-lg transform hover:scale-125 transition-all"
             >
               Get in Touch
             </Link>
