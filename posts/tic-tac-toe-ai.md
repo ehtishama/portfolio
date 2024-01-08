@@ -25,22 +25,13 @@ featured_image: /projects/tictactoe.png
 
 thumbnail_image: /projects/tictactoe.png
 
-short_desc: A fun little project I did while completeing the Harvards online course on Introduction to Artificial Intelligence. It implements a game playing agent using the minmax algorithm that always looks for a state that has the minimum of the maximum possible losses at the subsequent states.
+short_desc: I completed a fun little project while taking the online course on Artificial Intelligence offered by Harvard. The project involved implementing a game playing agent using the minmax algorithm. This algorithm always looks for a state that has the minimum of the maximum possible losses at the subsequent states.
 
-long_desc: A fun little project I did while completeing the Harvards online course on Introduction to Artificial Intelligence. It implements a game playing agent using the minmax algorithm that always looks for a state that has the minimum of the maximum possible losses at the subsequent states.
+long_desc: I completed a fun little project while taking the online course on Artificial Intelligence offered by Harvard. The project involved implementing a game playing agent using the minmax algorithm. This algorithm always looks for a state that has the minimum of the maximum possible losses at the subsequent states.
 
 ---
 
-## Background Information
+## Project Summary
+Tic Tac Toe is a timeless board game that is traditionally played by two players. The participants take turns placing their chosen symbol, either a tick or a cross, in one of the empty cells on the 3x3 board. The objective of the game is to mark three cells in a row, column, or diagonal with the same symbol.
+In this project, I programmed an AI agent to play tic-tac-toe against a user by maximizing the chances of winning. Given the nature of the game, it is impossible to beat this agent on a 3x3 board.
 
-Monitoring wildlife and their habitat is of paramount importance in understanding the effects of several natural phenomena. For instance, butterflies are early indicators of the effects of climate change. Similarly, wildlife monitoring is also critical in preserving endangered animals, understanding their behaviours and reducing poaching activities. The dissertation aimed to build an inexpensive motion sensing device that is also capable of recognizing animals it records. You can download the full copy of the [dissertation document here](https://google.com).
-
-## Tech Stack
-
-![Technologies used for Dissertation project!](/dissertation-stack.png)
-
-I used raspberry pi as the main computing device due to its small size and portability. A camera module is integrated into the Raspberry Pi to record the wildlife environment. Two sets of Python packages are written; one detects motion that is potentially caused by animals and the other classifies captured images. The motion sensing packages used OpenCV's average running background technique to compute differences in a series of frames. The image classification model uses Pytorch to train a CNN model on a dataset of 20 animal classes and achieves an accuracy of 82%.
-
-## Learnings and Thoughts
-
-Neural networks are widely used in image data analysis. Understanding the underlying mechanism of CNNs and exploring various popular variants, such as AlexNet, LeNet, and MobileNets, is very informative. Moreover, I have always been fascinated by Raspberry Pi and related hardware devices, but I have never built anything with them. Through this project, I gained hands-on experience and learned a lot about Raspberry Pi.
