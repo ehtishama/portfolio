@@ -26,7 +26,7 @@ const social_links = [
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-50 mt-32" id="footer">
+    <footer className="bg-gray-100 mt-32 min-h-screen flex flex-col justify-center" id="footer">
       <section className="max-w-6xl mx-auto px-4 py-20 space-y-4">
         <h2 className="font-bold text-4xl capitalize">
           Let&apos;s build someting together
@@ -41,8 +41,8 @@ export default function Footer() {
 
         <div className="flex space-x-4 mt-2">
           {social_links.map((link) => (
-            <a key={link.id} href={link.url}>
-              {link.icon()}
+            <a key={link.id} href={link.url} className="bg-black rounded-full p-2">
+              {<link.icon stroke="white"   />}
             </a>
           ))}
         </div>
