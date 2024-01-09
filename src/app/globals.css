@@ -32,16 +32,26 @@
 }
 
 .hero .gradient-text {
-  background-image: linear-gradient(90deg, #8250df 0, #d42a32 49.9%, black 50%, black 100%);
+  background-image: linear-gradient(90deg, #8250df 0, #d42a32 49.9%, rgb(255, 150, 23) 100%);
   color: transparent;
   background-clip: text;
   background-size: 200%;
-  background-position: 100% 0;
+  background-position: 0 0;
   transition: background-position 300ms ease-in;
+  animation: 5s ease-in 0s infinite alternate animate-bg-position;
+}
+
+@keyframes animate-bg-position{
+  from{
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
 }
 
 .hero .gradient-text:hover {
-  background-position: 0% 0;
+  /* background-position: 0% 0; */
 }
 
 #projects::before {
