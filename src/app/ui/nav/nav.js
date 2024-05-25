@@ -10,7 +10,7 @@ export default function Nav() {
   const [navOpen, setNavOpen] = useState(false);
 
   return (
-    <nav className="border-b sticky top-0 bg-white/70 backdrop-blur-md z-50">
+    <nav className="border-b sticky top-0 bg-white/70 dark:bg-gray-800 dark:border-gray-600 backdrop-blur-md z-50">
       <div className="h-[70px] max-w-6xl px-4 mx-auto flex justify-between items-center">
         {/* logo */}
         <Link href={"/"}>
@@ -18,7 +18,7 @@ export default function Nav() {
         </Link>
 
         {/* links for desktop */}
-        <ul className="hidden lg:flex items-center space-x-8 font-medium text-gray-700">
+        <ul className="hidden lg:flex items-center space-x-8 font-medium ">
           <li>
             <Link href={"#hero"}>About</Link>
           </li>

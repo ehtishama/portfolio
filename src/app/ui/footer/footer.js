@@ -26,7 +26,7 @@ const social_links = [
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 mt-32 min-h-screen flex flex-col justify-center" id="footer">
+    <footer className="bg-gray-100 dark:bg-gray-800 mt-32 min-h-screen flex flex-col justify-center" id="footer">
       <section className="max-w-6xl mx-auto px-4 py-20 space-y-4">
         <h2 className="font-bold text-4xl capitalize">
           Let&apos;s build someting together

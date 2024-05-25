@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="overflow-x-hidden">
-      <body className={`${poppins.className} overflow-x-hidden`}>
+      <body className={`${poppins.className} overflow-x-hidden dark:bg-gray-900`}>
         {children}
       </body>
     </html>

@@ -51,7 +51,7 @@ export default function Home() {
           </div>
 
           <div className="lg:w-8/12 pr-4 space-y-4 lg:order-1 lg:pr-12">
-            <div className="text-[#132E32]">
+            <div className="text-[#132E32] dark:text-gray-200">
               <p className="font-bold text-[28px] block text-center lg:text-left">
                 👋Hi, I&apos;m Ehtisham.
               </p>
@@ -59,11 +59,11 @@ export default function Home() {
                 Software and Machine Learning Engineer.
               </h3>
             </div>
-            <p className="pt-2 text-[20px] text-gray-800 max-w2xl">
+            <p className="pt-2 text-[20px] text-gray-800 dark:text-gray-200 max-w2xl">
               I am an aspiring Software and AI Developer located in Sheffield,
               England.
             </p>
-            <p className="pt-2 text-[20px] text-gray-800 max-w2xl">
+            <p className="pt-2 text-[20px] text-gray-800 dark:text-gray-200 max-w2xl">
               In the December 2023, I graduated in{" "}
               <span className="">MSc Artificial Intelligence </span>
               with distinction from the{" "}

@@ -16,10 +16,10 @@ export default function ProjectCard({ id, title, description, image }) {
       </div>
       <div className="p-2">
         <h4 className="font-semibold text-2xl my-4 leading-6">{title}</h4>
-        <p className="text-gray-700">{description}</p>
+        <p className="">{description}</p>
         <Link
           href={`/projects/${id}`}
-          className="block my-3 text-black font-medium"
+          className="block my-3 text-black dark:text-white font-medium"
           scroll={true}
         >
           <span className="underline underline-offset-4 flex items-center gap-x-1 group">
