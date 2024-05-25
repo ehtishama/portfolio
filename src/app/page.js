@@ -70,7 +70,7 @@ export default function Home() {
               <span className="underline font-medium">
                 Manchester Metropolitan University.
               </span>
-              &nbsp; I love making web and mobile applications. Follwoing is
+              &nbsp; I love making web and mobile applications. Following is
               some of my recent work.
             </p>
             <div className="flex gap-x-4 py-4">
